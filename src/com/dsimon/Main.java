@@ -3,6 +3,9 @@ package com.dsimon;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        AllFactors.printFactors(6);
+        AllFactors.printFactors(32);
+        AllFactors.printFactors(10);
+        AllFactors.printFactors(-1  );
     }
 }
